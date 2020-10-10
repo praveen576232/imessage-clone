@@ -1,0 +1,42 @@
+.messages{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+  align-items: center;
+  padding: 15px;
+    position: relative;
+
+}
+.messages_avatar{
+    margin-right: 10px;
+}
+.messages >p{
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 15px;
+margin-right: auto;
+}
+.messages > small{
+    position: absolute;
+    font-weight: 400;
+    font-size: 9px;
+    bottom: 0px;
+    right: 0px;
+}
+.mymessage{
+    margin-left: auto;
+}
+.messages_avatar{
+    order: 0;
+}
+.mymessage > .messages_avatar{
+    margin-left: 10px;
+    order: 1;
+}
+.mymessage > small{
+    margin-right: 5px;
+}
+.mymessage >p{
+    background-color: #3e93fd;
+    color: white;
+}

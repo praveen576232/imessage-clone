@@ -1,0 +1,24 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login > img{
+    height: 40vh;
+    object-fit: contain;
+    
+}
+.login >h2{
+    padding-bottom: 55px;
+}
+.login_button{
+    text-transform: inherit !important;
+    text-align: center !important;
+    width: 35vw;
+    letter-spacing: 2px !important;
+    font-weight: 900;
+    background-color: #3e93fd !important;
+}

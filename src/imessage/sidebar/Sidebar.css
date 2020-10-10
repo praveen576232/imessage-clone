@@ -1,0 +1,48 @@
+.sidebar_info{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 10px;
+}
+.sidebar_info > .MuiSvgIcon-root {
+    color: gray;
+}
+.sidebar_header{
+
+    display: flex;
+    align-items: center;
+  height: 50px;
+  padding: 10px;
+
+}
+
+.sidebar_headeravatar{
+    margin: 10px;
+    cursor: pointer;
+}
+.sidebar_info > input{
+    flex: 1;
+    outline: 0;
+    border: none;
+    padding: 5px;
+    background-color: lightgray;
+}
+.sidebar{
+    flex: 0.35;
+  
+    height: 100vh;
+    background-color: #f5f5f5;
+    border-right: 1px solid lightgray;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+.sidebar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

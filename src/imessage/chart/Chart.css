@@ -1,0 +1,51 @@
+.chart{
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+.chart_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid lightgray;
+}
+.chart_header > h4{
+    font-weight: 500;
+    color: grey;
+}
+.chart_name{
+    color: black;
+}
+.chart_header > strong{
+    cursor: pointer;
+    color: #1131e7;
+}
+.chart_message{
+    flex: 1;
+    
+}
+.chart_input{
+    display: flex;
+    align-items: center;
+    
+    background-color: #f5f5f5;
+    border-bottom: 1px solid lightgray;
+}
+.chart_input > form {
+    flex: 1;
+    padding: 10px 20px;
+}
+.chart_input > form > input {
+    outline: 0;
+    width: 90%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  
+  padding: 5px;
+}
+.chart_input > form > button {
+  display: none;
+  }
