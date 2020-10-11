@@ -36,7 +36,7 @@
 }
 .chart_input > form {
     flex: 1;
-    padding: 10px 20px;
+    padding-left: 10px ;
 }
 .chart_input > form > input {
     outline: 0;
@@ -49,3 +49,20 @@
 .chart_input > form > button {
   display: none;
   }
+
+  .chart_input_mic-off > .mic-cancel-button{
+   display: none;
+  }
+  .chart_input_mic-on {
+    border: 1px solid red;
+    border-radius: 5px;
+    
+   }
+   .chart_input_mic-on > .mic-cancel-button{
+  background-color: red;
+     color: white;
+   }
+   .chart_input_mic-on > .mic-cancel-button:hover{
+    background-color: white;
+       color: red;
+     }
