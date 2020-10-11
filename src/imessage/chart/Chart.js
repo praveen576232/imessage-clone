@@ -24,7 +24,7 @@ function Chart() {
   const [message, setMessage] = useState("");
   const [charts, setCharts] = useState([]);
 
-  const [firstchartName, setfirstchartName] = useState("");
+  const [firstchartName, setfirstchartName] = useState(null);
   const [firstchartId, setfirstchartId] = useState(null);
   const sendMessage = (e) => {
     e.preventDefault();
@@ -64,6 +64,7 @@ function Chart() {
     if (chartId) {
       updatecharts(chartId);
       setfirstchartId(null);
+      setfirstchartName(null);
     }
   }, [chartId]);
 
@@ -116,7 +117,7 @@ function Chart() {
         <h4>
           To:{" "}
           <span className="chart_name">
-            {chartName != null ? chartName : firstchartName && firstchartName}
+            {firstchartName != null ? firstchartName : chartName && chartName}
           </span>
         </h4>
         <strong>Details</strong>
